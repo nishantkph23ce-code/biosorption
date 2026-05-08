@@ -1,8 +1,10 @@
 # Binary Bio-adsorbent System for Azo Dye Removal: Rice Husk + Spent Tea Leaves
 
+**Authors:** Nishant Kumar et al.
+
 **Repository for:** *Binary Bio-Adsorbent System for Azo Dye Removal Using Rice Husk and Spent Tea Leaves: Kinetics, Four-Isotherm Analysis, and ANN Dose Optimisation*
 
-Presented at: **IV ICESSM-2026**, Sri Balaji College of Engineering & Technology, Jaipur, India (15–16 May 2026)
+*(Under review / submitted for publication)*
 
 [![DOI](https://img.shields.io/badge/DOI-pending-blue)](.)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -13,7 +15,7 @@ Presented at: **IV ICESSM-2026**, Sri Balaji College of Engineering & Technology
 ## Repository Structure
 
 ```
-biosorption-RH-STL-ICESSM2026/
+biosorption-RH-STL/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -45,8 +47,6 @@ biosorption-RH-STL-ICESSM2026/
 | Equilibrium time | 120 min |
 | Particle size | 300 µm (both adsorbents) |
 
----
-
 ## Key Results
 
 | Model | Parameter | RH | STL |
@@ -56,35 +56,28 @@ biosorption-RH-STL-ICESSM2026/
 | Freundlich (best isotherm) | R² | 0.925 | 0.970 |
 | D-R mean free energy | E (kJ/mol) | 8.47 | 6.35 |
 
-**Binary system:** Sf = 1.087 (8.7% synergistic enhancement)
+- **Binary system:** Sf = 1.087 (8.7% synergistic enhancement)
+- - **ANN optimum:** RH = 0.66 g + STL = 1.80 g per 200 mL → RE ≥ 95%
+ 
+  - ## Quickstart
+ 
+  - ```bash
+    git clone https://github.com/nishantkph23ce-code/biosorption.git
+    cd biosorption
+    pip install -r requirements.txt
+    python analysis/run_all_analysis.py
+    ```
 
-**ANN optimum:** RH = 0.66 g + STL = 1.80 g per 200 mL → RE ≥ 95%
+    ## Citation
 
----
+    If you use this work, please cite:
 
-## Quickstart
+    > Nishant Kumar et al. (2026). *Binary Bio-Adsorbent System for Azo Dye Removal Using Rice Husk and Spent Tea Leaves: Kinetics, Four-Isotherm Analysis, and ANN Dose Optimisation*. (Under review)
+    
+    ## License
 
-```bash
-git clone https://github.com/nishantkph23ce-code/biosorption-RH-STL-ICESSM2026.git
-cd biosorption-RH-STL-ICESSM2026
-pip install -r requirements.txt
-python analysis/run_all_analysis.py
-```
+    MIT License. See [LICENSE](LICENSE) for details.
 
----
+    ## Contact
 
-## Citation
-
-> [Authors]. (2026). Binary Bio-Adsorbent System for Azo Dye Removal Using Rice Husk and Spent Tea Leaves. *Proceedings of IV ICESSM-2026*, Jaipur.
-
----
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## Contact
-
-Department of Civil Engineering, Katihar Engineering College, Katihar, Bihar, India
+    Department of Civil Engineering, Katihar Engineering College, Katihar, Bihar, India
